@@ -28,7 +28,6 @@ def dfs_adjacent_list(graph, start_vertex, visited=None):
 
         # At some point when all neighour is in visited then this recursion would end
 
-        
 graph_list = {
     'A': ['B', 'C'],
     'B': ['A', 'D', 'E'],
@@ -220,5 +219,5 @@ start = (0, 0)  # Starting position
 end = (4, 4)    # End position
 
 # Run DFS to solve the maze
-found = dfs_maze(maze, start, end)
-print("Path found:", found)
+Found = dfs_maze(maze, start, end)
+print("Path found:", Found)
